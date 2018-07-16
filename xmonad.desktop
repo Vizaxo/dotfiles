@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=xmonad
+Comment=XMonad
+Exec=/home/mitch/.local/bin/xmonad
+Type=Application
