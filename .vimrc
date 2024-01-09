@@ -42,6 +42,7 @@ noremap <leader>b9 :b9<CR>
 "make
 noremap <leader>mm :!make<CR>
 noremap <leader>mq :!make quick<CR>
+noremap <leader>mc :!make clean<CR>
 
 "git
 noremap <leader>gg :!git 
@@ -49,7 +50,8 @@ noremap <leader>gs :!git status<CR>
 noremap <leader>ga. :!git add %<CR>
 noremap <leader>gaa :!git add --all<CR>
 noremap <leader>gl :!git log --oneline --graph<CR>
-noremap <leader>gc :!git commit<CR>
+noremap <leader>gcc :!git commit<CR>
+noremap <leader>gca :!git commit --amend<CR>
 noremap <leader>gp :!git push<CR>
 noremap <leader>gd :!git diff --color-words %<CR>
 noremap <leader>gb :!git blame %<CR>
